@@ -1,0 +1,19 @@
+* {
+   background-color: aqua;
+   margin: 0;
+   padding: 0;
+}
+
+
+h5{
+   display: inline;
+}
+
+.fotoja {
+   max-width: 100px;
+   max-height: 100px;
+}
+
+footer{
+   text-align: center;
+}
