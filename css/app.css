@@ -1,19 +1,73 @@
 * {
-   background-color: aqua;
    margin: 0;
    padding: 0;
+   background: aqua;
+   font-family: sans-serif;
 }
 
+.fotoja{
+ max-width: 100px;
+ max-height: 100px;
+}
 
-h5{
+.div1{
+   padding-left: 80%;
+   
+}
+
+h4{
    display: inline;
 }
 
-.fotoja {
-   max-width: 100px;
-   max-height: 100px;
+.box {
+   width: 300px;
+   padding: 40px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: blueviolet;
+   text-align: center;
+   border-radius: 25px;
+}
+
+
+.box p{
+   padding-top: 15px;
+   padding-bottom: 10px;
+}
+
+.box h4{
+   padding-right: 20px;
+   padding-left: 5px;
+   border-left: 3px solid gray;
+   
+}
+
+.box h4, p {
+   background: blueviolet;
+}
+
+#name, #password{
+   border-style: none;
+   background-color: lightgrey;
+   border-radius: 15px;
+   padding: 5px;
+}
+
+#submit {
+   border-style: none;
+   background-color: greenyellow;
+   padding: 5px 20px;
+   border-radius: 25px;
 }
 
 footer{
+   position: absolute;
+   transform: translate(-50%, -50%);
+   bottom: 0%;
+   left: 50%;
    text-align: center;
 }
+
+
